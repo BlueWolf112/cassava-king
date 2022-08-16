@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cassava.king</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Montserrat:wght@800&family=Outfit:wght@500&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="nav-logo"style="font-family: 'Montserrat', sans-serif;">Cassava.king</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a href="#profil" class="nav-link">Produk Kami</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#tempat-pesan" class="nav-link">Order</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+<!-- Pembukaan-->
+  <div class="head-page" id="home">
+    <span class="Header1">
+      <h1 style="font-family: 'Montserrat', sans-serif">Cassava Tape</h1>
+      <p>Tape bukan sekedar tape. Makan Tape kini tak lagi membosankan. Nikmati kuliner tradisional yang diadabtasi ke modern. Kuliner yang belum pernah ada sebelumnya.</p>
+    </span>
+    <span>
+      <button type="input" href="#tempat-order" class="btn-order-atas">
+        <a href="#tempat-pesan">ORDER NOW</a>
+      </button>
+    </span>
+    <span id="Header2">
+      <img class="Gambar-Utama" src="Media/gambar.png" alt="Gambar Utama" />
+    </span>
+  </div>
+
+  <!-- Project -->
+  <div class="about-product" id="profil">
+    <h2>Kenapa makanan kami layak untuk Anda coba?</h2>
+    <span class="deskripsi">
+      <img class="kebun" src="Media/kebun_Singkong.jpg" alt="Kebun Singkong" />
+      <div class="deskripsi-produk">
+        <p class="">
+          Singkong kami ditanam menggunakan bibit singkong yang berkualitas yang ditanam secara khusus oleh petani profesional. 
+        </p>
+      </div>
+    </span>
+    <span class="deskripsi">
+      <img class="kebun" src="Media/tape.jpg" alt="Tape Singkong" />
+      <div class="deskripsi-produk">
+        <p class="">
+          Tape Singkong kami diolah menggunakan teknik fermentasi terbaik yang telah diuji oleh ahli. Sehingga menghasilkan tape yang empuk dan enak.
+        </p>
+      </div>
+    </span>
+  </div>
+
+  <!--Menu Mkanan-->
+  <div id="menu" class="menu">
+    <h2>Daftar Menu:</h2>
+    <p>Ini beberapa varian rasa yang tersedia</p>
+    <span id="m-rasa" class="glassmorphism">
+      <img id="rasa" src="Media/Coklat.png" alt="Coklat" class="rasa-coklat">
+      <h3>Chocolate</h3>
+      <h5 class="price">Rp10.000,00</h5>
+    </span>
+    <span id="m-rasa" class="glassmorphism">
+      <img id="rasa" src="Media/keju.jpg" alt="Keju" class="rasa-coklat">
+      <h3>Keju</h3>
+      <h5 class="price">Rp10.000,00</h5>
+    </span>
+    <span id="m-rasa" class="glassmorphism">
+      <img id="rasa" src="Media/matcha.jpg" alt="Matcha" class="rasa-coklat">
+      <h3>Matcha</h3>
+      <h5 class="price">Rp10.000,00</h5>
+    </span>
+    <span id="m-rasa" class="glassmorphism">
+      <img id="rasa" src="Media/stroberi.jpg" alt="Coklat" class="rasa-coklat">
+      <h3>Selai Stroberi</h3>
+      <h5 class="price">Rp10.000,00</h5>
+    </span>
+    <span id="m-rasa" class="glassmorphism">
+      <img id="rasa" src="Media/caramel.jpg" alt="Coklat" class="rasa-coklat">
+      <h3>Caramel</h3>
+      <h5 class="price">Rp10.000,00</h5>
+    </span>
+    <span id="m-rasa" class="glassmorphism">
+      <img id="rasa" src="Media/cappuccino.jpg" alt="Coklat" class="rasa-coklat">
+      <h3>Cappuccino</h3>
+      <h5 class="price">Rp10.000,00</h5>
+    </span>
+  </div>
+  <!--Order-->
+  <footer id="tempat-pesan">
+    <div id="tempat-order" class="pesan">
+      <h3>Tertarik untuk memesan?</h3>
+      <button class="btn-order"><b>
+        <a href="https://wa.link/tdbm94">
+          Order via Whatsapp
+          <i style="color: white;" class="fab fa-whatsapp"></i></b>
+        </a>
+      </button>
+      <p class="copyright">2021©YUSUF FAHAR PRASLI IRSYAD|Made for PKWU Assigment</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/94c79b5d34.js" crossorigin="anonymous"></script>
+  
+</body>  
+</html>
